@@ -20,7 +20,7 @@ const getArbitrationOptions = (submissionWorkflow: SubmissionWorkflow) => [
 		completedName: 'declined',
 		apiMethod: 'PUT',
 		status: 'declined',
-		initialEmailText: submissionWorkflow.declinedText,
+		initialEmailText: submissionWorkflow.condolencesEmailText,
 	},
 	{
 		icon: 'endorsed',
@@ -28,7 +28,7 @@ const getArbitrationOptions = (submissionWorkflow: SubmissionWorkflow) => [
 		completedName: 'accepted',
 		apiMethod: 'PUT',
 		status: 'accepted',
-		initialEmailText: submissionWorkflow.acceptedText,
+		initialEmailText: submissionWorkflow.congratulationsEmailText,
 	},
 ];
 
