@@ -52,7 +52,7 @@ const deriveEmailCustomText = (
 		return customText;
 	}
 	if (emailKind === 'received') {
-		return submissionWorkflow.emailText;
+		return submissionWorkflow.thanksEmailText;
 	}
 	return null;
 };
